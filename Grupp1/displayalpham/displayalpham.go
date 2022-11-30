@@ -8,3 +8,12 @@ aBcDeFgHiJkLmNoPqRsTuVwXyZ$
 $*/
 
 package main
+
+import "github.com/01-edu/z01"
+
+func main() {
+	s := "aBcDeFgHiJkLmNoPqRsTuVwXyZ"
+	for _, c := range s {
+		z01.PrintRune(c)
+	}
+}
